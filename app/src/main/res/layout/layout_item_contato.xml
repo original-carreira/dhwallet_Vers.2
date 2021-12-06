@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp"
+    android:background="@drawable/background_card_personal"
+    android:padding="16dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imagem_do_item"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:contentDescription="@string/descricao_imagem_do_contato"
+        android:src="@drawable/alvem"
+        tools:ignore="MissingConstraints"
+        app:shapeAppearanceOverlay="@style/roundedImagemView" />
+
+    <TextView
+        android:id="@+id/titulo_nome_do_contato"
+        style="@style/Body1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/nomeDoContato"
+        app:layout_constraintBottom_toTopOf="@+id/subtitulo_nome_do_contato"
+        app:layout_constraintStart_toEndOf="@+id/imagem_do_item"
+        app:layout_constraintTop_toTopOf="@+id/imagem_do_item"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/subtitulo_nome_do_contato"
+        style="@style/Body1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/dadosDoContato"
+        app:layout_constraintBottom_toBottomOf="@+id/imagem_do_item"
+        app:layout_constraintStart_toEndOf="@+id/imagem_do_item"
+        app:layout_constraintTop_toBottomOf="@+id/titulo_nome_do_contato" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

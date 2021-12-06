@@ -50,4 +50,9 @@
         <item name="iconifiedByDefault">false</item>
         <item name="android:background">@drawable/background_search</item>
     </style>
+    <style name="roundedImagemView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+    </style>
+
 </resources>

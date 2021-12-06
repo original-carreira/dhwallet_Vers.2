@@ -16,4 +16,10 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="titulo_telaTranferir">Transferência</string>
+    <string name="title_pesquisar_hint">Pesquisar</string>
+    <string name="titulo_contato_tela_fragment">Contatos</string>
+    <string name="dadosDoContato">Dados do contato</string>
+    <string name="nomeDoContato">Nome do Contato</string>
+    <string name="descricao_imagem_do_contato">Foto do contato</string>
 </resources>
