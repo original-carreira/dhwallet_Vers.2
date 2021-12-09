@@ -17,7 +17,7 @@ class TelaTransferirFragment : Fragment(R.layout.fragment_tela_transferir) {
 
         val listaContatos = MutableList(10){
             Contact(
-                image = "https://upload.wikimedia.org/wikipedia/pt/8/80/He-Man_e_Gato_Guerreiro.jpg",
+                image = "https://studiosol-a.akamaihd.net/uploadfile/letras/fotos/a/3/7/2/a372ee687749cef5ec6188750852ac96.jpg",
                 name = "Cibele",
                 type = ContactType.AMIGA
             )
